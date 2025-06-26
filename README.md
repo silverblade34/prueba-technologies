@@ -41,7 +41,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <url-del-repositorio>
+   git clone [<url-del-repositorio>](https://github.com/silverblade34/prueba-technologies.git)
    cd technologies
    ```
 
