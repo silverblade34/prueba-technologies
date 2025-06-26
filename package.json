@@ -1,0 +1,17 @@
+{
+  "name": "technologies",
+  "version": "1.0.0",
+  "description": "Sistema de bonificaciones - Frontend Vue 3 + Backend NestJS",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run start:dev",
+    "frontend": "cd frontend && npm run serve",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build",
+    "clean": "rm -rf node_modules && cd backend && rm -rf node_modules && cd ../frontend && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
